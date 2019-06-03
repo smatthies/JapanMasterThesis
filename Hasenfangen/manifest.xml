@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="hasenfangen" version="0.0.3">
+ <names>
+  <name lang="de_DE">Aria_Hasenfangen</name>
+  <name lang="en_US">Aria_Hasenfangen</name>
+ </names>
+ <supportedLanguages>
+  <language>de_DE</language>
+  <language>en_US</language>
+  <language>ja_JP</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>de_DE</language>
+  <language>en_US</language>
+  <language>ja_JP</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

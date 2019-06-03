@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.2" uuid="music-memory">
+ <names>
+  <name lang="de_DE">Diakonie Music Memory App</name>
+  <name lang="en_US">Aria_MusicMemory</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="de_DE">Lass uns memory spielen</sentence>
+    <sentence lang="de_DE">Memory</sentence>
+    <sentence lang="en_US">Let's play memory</sentence>
+   </triggerSentences>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

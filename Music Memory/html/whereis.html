@@ -1,0 +1,66 @@
+<html>
+<head>
+
+	<title>Pepper Memory</title>
+	
+	<link rel="stylesheet" href="bootstrap.min.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="robotutils.js"></script>
+    <script src="touch.js"></script>    
+    
+</head>
+<body style="background-color: #f0f0f0; padding: 10px; max-height: 100%; height: 100%;">
+
+	<table style="height: 100%; width:100%; border-spacing: 10px; border-collapse: separate;">
+		<tr>
+		
+			<td colspan="2">
+				<div class="col-xs-8"><h2><b><span id="word">Was ist das?</span></b></h2></div>
+				<div class="col-xs-4">
+					<button id="play" class="btn btn-lg btn-default"><i class="fa fa-window-play"></i>nochmal abspielen</button>
+					
+				</div>
+			</td>
+			
+		</tr>
+		<tr>
+		
+			<td class="text-center">
+				<button id="links"><img id="imglinks" src="left.jpg" class="img-responsive"/></button>
+			</td>
+			
+			<td class="text-center">
+				<button id="rechts"><img id="imgrechts" src="right.jpg" class="img-responsive"/></button>
+			</td>
+			
+		</tr>
+		<tr>
+			
+			<td>
+				<button id="links" class="btn btn-lg btn-block btn-default">
+					<br /><h1 id="btnLeft"></h1><br />&nbsp;
+				</button>
+			</td>
+			
+			<td>
+				<button id="rechts" class="btn btn-lg btn-block btn-default">
+					<br /><h1 id="btnRight"></h1><br />&nbsp;
+				</button>
+			</td>
+			
+		</tr>
+		<tr>
+			<td colspan="2">
+				<div class="progress">
+					<div id="progress-bar" class="progress-bar progress-bar-success" aria-valuenow="0" style="width: 0%;"></div>
+				</div>
+			</td>
+		</tr>	
+	</table>
+	
+	
+
+</body>
+</html>

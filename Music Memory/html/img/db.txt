@@ -1,0 +1,22 @@
+{
+	'ein Akkordeon': [["akkordeon.ogg", "akkordeon2.ogg", "akkordeon3.ogg"], [1]],
+	'ein Banjo': [["banjo.ogg"], [2]],
+	'eine Clarinette': [["clarinette.ogg"], [3]],
+	'ein Dudelsack': [["dudelsack.ogg"], [4]],
+	'eine Flöte': [["floete.ogg"], [5]],
+	'eine Geige': [["geige.ogg", "geige2.ogg"], [6]],
+	'eine Gitarre': [["gitarre.ogg"], [7]],
+	'eine Harfe': [["harfe.ogg"], [8]],
+	'ein Horn': [["horn.ogg", "horn2.ogg"], [9]],
+	'ein Klavier': [["klavier.ogg"], [10]],
+	'ein Kontrabass': [["kontrabass.ogg"], [11]],
+	'eine Mundharmonika': [["mundharmonika.ogg"], [12]],
+	'eine Oboe': [["oboe.ogg"], [13]],
+	'eine Orgel': [["orgel.ogg"], [14]],
+	'eine Tuba': [["tuba.ogg"], [15]],
+	'eine Rassel': [["rasseln.ogg"], [16]],
+	'ein Saxophon': [["saxophone.ogg"], [17]],
+	'ein Schlagzeug': [["schlagzeug.ogg"], [18]],
+	'eine Trompete': [["trompete.ogg","trompete2.ogg"], [19]],
+	'ein Xylophon': [["xylophone.ogg"], [20]]
+}
