@@ -21,8 +21,8 @@
 	<script type="text/javascript">
 
 		// some general screen configs
-		var screenWidth = 1280;
-		var screenHeight = 800;
+		var screenWidth = 1707;
+		var screenHeight = 1019;
 		var screenOriginWidth = screenWidth / 2;
 		var screenOriginHeight = screenHeight / 2;
 
@@ -129,7 +129,7 @@
 
         // set score text
         scoretext = this.add.text(16, 16, 'Punkte: 0', {fontSize: '24px', fill: '#000000'});
-        leveltext = this.add.text(16, 45, ' Level: 1', {fontSize: '24px', fill: '#000000'});
+        // leveltext = this.add.text(16, 45, ' Level: 1', {fontSize: '24px', fill: '#000000'});
 
         // add gameover background and text
         gameOverBG = this.add.image(screenOriginWidth, screenOriginHeight, 'gameover').setVisible(false);
@@ -222,7 +222,7 @@
                 rabbit.setVisible(false);
                 rabbit.respawnAfter = Date.now() + respawnTime;
                 score += Math.round(10 * (1. - rabbit.scaleX));
-                scoretext.setText('Punkte: ' + score);
+                scoretext.setText('Points: ' + score);
                 raiseMemoryEvent('rabbitgame/rabbitHit', score);
             }
 		}
