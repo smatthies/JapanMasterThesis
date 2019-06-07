@@ -73,7 +73,7 @@
 			endtime = Date.now() - this.startTime;
 			console.log("End Timer .." + endtime);
 			ALTabletBinding.raiseEvent(Math.floor(endtime/1000));
-			document.getElementById("zeit").innerHTML = "Du hast " + Math.floor(endtime/1000) + " Sekunden benötigt";
+			document.getElementById("zeit").innerHTML = Math.floor(endtime/1000) + "-Byō kakarimashita";
 			setTimeout(function(){
 				Memory.showModal();
 				Memory.$game.fadeOut();
