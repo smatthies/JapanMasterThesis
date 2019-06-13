@@ -29,6 +29,7 @@
         <File name="robotutils" src="html/robotutils.js" />
         <File name="touch" src="html/touch.js" />
         <File name="plop" src="sounds/plop.mp3" />
+        <File name="Marschieren" src="html/img/backgrounds/Marschieren.png" />
     </Resources>
     <Topics />
     <IgnoredPaths />

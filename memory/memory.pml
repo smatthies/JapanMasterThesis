@@ -25,6 +25,7 @@
         <File name="rot" src="html/img/rot.jpg" />
         <File name="wald" src="html/img/wald.jpg" />
         <File name="sonne" src="html/img/sonne.jpg" />
+        <File name="end" src="html/js/end.js" />
     </Resources>
     <Topics />
     <IgnoredPaths />

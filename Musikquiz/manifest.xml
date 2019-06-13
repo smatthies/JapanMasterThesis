@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="musikquiz-94bc1b" version="1.0.0">
+ <names>
+  <name lang="en_US">DalliKlick</name>
+  <name lang="ja_JP">musikquiz</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>ja_JP</language>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="en_US">Let's play DalliKlick</sentence>
+   </triggerSentences>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title>Rabbit Game</title>
-
+	<meta charset="utf-8" />
 	<!-- Phaser https://phaser.io -->
 	<script src="jquery.min.js"></script>
 	<script src="robotutils.js"></script>
@@ -115,6 +115,12 @@
                     img.respawnAfter = 0;
                     img.setInteractive();
                 }
+				if (object[0] == 'rabbit2') {
+                    rabbits.push(img);
+                    img.setVisible(false);
+                    img.respawnAfter = 0;
+                    img.setInteractive();
+                }
 
                 // set angle and scale, if available
                 if (object.length > 3) {
@@ -129,12 +135,14 @@
 
         // set score text
         scoretext = this.add.text(16, 16, 'Punkte: 0', {fontSize: '24px', fill: '#000000'});
-        // leveltext = this.add.text(16, 45, ' Level: 1', {fontSize: '24px', fill: '#000000'});
+		scoretext.setVisible(false);
+        leveltext = this.add.text(16, 45, ' Level: 1', {fontSize: '24px', fill: '#000000'});
+		leveltext.setVisible(false);
 
         // add gameover background and text
         gameOverBG = this.add.image(screenOriginWidth, screenOriginHeight, 'gameover').setVisible(false);
-        gameOverText = this.add.text(100, 300, 'GAME OVER', {fontSize: '200px', fill: '#ff0f0f'}).setVisible(false);
-        gameOverLevelScore = this.add.text(130, 500, '100 Punkte', {
+        gameOverText = this.add.text(200, 300, '終了', {fontSize: '200px', fill: '#ff0f0f'}).setVisible(false);
+        gameOverLevelScore = this.add.text(230, 500, '100 Points', {
             fontSize: '100px',
             fill: '#ffffff'
         }).setVisible(false);
@@ -151,6 +159,7 @@
                 level++;
                 nextLevelAt += level * 50;
                 leveltext.setText(" Level: " + level);
+				leveltext.setVisible(false);
 
                 // security check
                 if (nextLevelAt <= score) {
@@ -173,7 +182,7 @@
                     gameOverBG.setVisible(true);
                     gameOverText.setVisible(true);
                     score = score * level;
-                    gameOverLevelScore.setText(score + " Punkte");
+                    gameOverLevelScore.setText(score + " 点数");
                     gameOverLevelScore.setVisible(true);
                     level = 0;
                 }
@@ -222,7 +231,8 @@
                 rabbit.setVisible(false);
                 rabbit.respawnAfter = Date.now() + respawnTime;
                 score += Math.round(10 * (1. - rabbit.scaleX));
-                scoretext.setText('Points: ' + score);
+                scoretext.setText('Punkte: ' + score);
+				scoretext.setVisible(false);
                 raiseMemoryEvent('rabbitgame/rabbitHit', score);
             }
 		}

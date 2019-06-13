@@ -29,6 +29,14 @@
         <File name="sax" src="html/sax.png" />
         <File name="horn" src="html/horn.png" />
         <File name="trumpet" src="html/trumpet.png" />
+        <File name="koto" src="sounds/koto.mp3" />
+        <File name="shakuhachi" src="sounds/shakuhachi.mp3" />
+        <File name="shamisen" src="sounds/shamisen.mp3" />
+        <File name="koto" src="html/koto.jpg" />
+        <File name="shakuhachi" src="html/shakuhachi.jpg" />
+        <File name="shamisen" src="html/shamisen.jpg" />
+        <File name="klavier" src="html/klavier.jpg" />
+        <File name="dudelsack" src="html/dudelsack.jpg" />
     </Resources>
     <Topics />
     <IgnoredPaths />

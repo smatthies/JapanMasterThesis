@@ -1176,14 +1176,14 @@ class MyClass(GeneratedClass):
 			"Arabic" : "  ",
 			"Czech" : " Ahoj ",
 			"Danish" : " Hej ",
-			"German" : " 練習を繰り返しますが、今回は両手でやります。両手を上げて、筋肉を硬直してください。  ",
+			"German" : "  ",
 			"Greek" : "  ",
 			"English" : " Hello ",
 			"Spanish" : " Hola ",
 			"Finnish" : " Hei ",
 			"French" : " Bonjour ",
 			"Italian" : " Ciao ",
-			"Japanese" : " こんにちは ",
+			"Japanese" : " 練習を繰り返しますが、今回は両手でやります。両手を上げて、筋肉を硬直してください。  ",
 			"Korean" : " 안녕하세요 ",
 			"Dutch" : " Hallo ",
 			"Norwegian" : "  ",
@@ -1199,7 +1199,7 @@ class MyClass(GeneratedClass):
 
 	def onInput_onStart(self):
 		sDefaultLang = self.tts.getLanguage()
-		self.onStopped(self.sentences[sDefaultLang])]]></content></script><pluginContent><arabic><![CDATA[]]></arabic><czech><![CDATA[Ahoj]]></czech><danish><![CDATA[Hej]]></danish><german><![CDATA[練習を繰り返しますが、今回は両手でやります。両手を上げて、筋肉を硬直してください。 ]]></german><greek><![CDATA[]]></greek><english><![CDATA[Hello]]></english><spanish><![CDATA[Hola]]></spanish><finnish><![CDATA[Hei]]></finnish><french><![CDATA[Bonjour]]></french><italian><![CDATA[Ciao]]></italian><japanese><![CDATA[こんにちは]]></japanese><korean><![CDATA[안녕하세요]]></korean><dutch><![CDATA[Hallo]]></dutch><norwegian><![CDATA[]]></norwegian><polish><![CDATA[Cześć]]></polish><brazilian><![CDATA[Olá]]></brazilian><portuguese><![CDATA[Olá]]></portuguese><russian><![CDATA[Привет]]></russian><swedish><![CDATA[Hallå]]></swedish><turkish><![CDATA[Merhaba]]></turkish><chinese><![CDATA[]]></chinese><mandarintaiwan><![CDATA[]]></mandarintaiwan><language>3</language></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Data is sent on the output when this input is stimulated." id="2" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Data sent when asked." id="3" /></Box><Box name="Wait" id="6" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="625" y="66"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+		self.onStopped(self.sentences[sDefaultLang])]]></content></script><pluginContent><arabic><![CDATA[]]></arabic><czech><![CDATA[Ahoj]]></czech><danish><![CDATA[Hej]]></danish><german><![CDATA[]]></german><greek><![CDATA[]]></greek><english><![CDATA[Hello]]></english><spanish><![CDATA[Hola]]></spanish><finnish><![CDATA[Hei]]></finnish><french><![CDATA[Bonjour]]></french><italian><![CDATA[Ciao]]></italian><japanese><![CDATA[練習を繰り返しますが、今回は両手でやります。両手を上げて、筋肉を硬直してください。 ]]></japanese><korean><![CDATA[안녕하세요]]></korean><dutch><![CDATA[Hallo]]></dutch><norwegian><![CDATA[]]></norwegian><polish><![CDATA[Cześć]]></polish><brazilian><![CDATA[Olá]]></brazilian><portuguese><![CDATA[Olá]]></portuguese><russian><![CDATA[Привет]]></russian><swedish><![CDATA[Hallå]]></swedish><turkish><![CDATA[Merhaba]]></turkish><chinese><![CDATA[]]></chinese><mandarintaiwan><![CDATA[]]></mandarintaiwan><language>10</language></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Data is sent on the output when this input is stimulated." id="2" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Data sent when asked." id="3" /></Box><Box name="Wait" id="6" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="625" y="66"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self, False)
 
@@ -1578,14 +1578,14 @@ class MyClass(GeneratedClass):
 			"Arabic" : "  ",
 			"Czech" : " Ahoj ",
 			"Danish" : " Hej ",
-			"German" : " 中指  ",
+			"German" : "  ",
 			"Greek" : "  ",
 			"English" : " Hello ",
 			"Spanish" : " Hola ",
 			"Finnish" : " Hei ",
 			"French" : " Bonjour ",
 			"Italian" : " Ciao ",
-			"Japanese" : " こんにちは ",
+			"Japanese" : " 中指  ",
 			"Korean" : " 안녕하세요 ",
 			"Dutch" : " Hallo ",
 			"Norwegian" : "  ",
@@ -1601,7 +1601,7 @@ class MyClass(GeneratedClass):
 
 	def onInput_onStart(self):
 		sDefaultLang = self.tts.getLanguage()
-		self.onStopped(self.sentences[sDefaultLang])]]></content></script><pluginContent><arabic><![CDATA[]]></arabic><czech><![CDATA[Ahoj]]></czech><danish><![CDATA[Hej]]></danish><german><![CDATA[中指 ]]></german><greek><![CDATA[]]></greek><english><![CDATA[Hello]]></english><spanish><![CDATA[Hola]]></spanish><finnish><![CDATA[Hei]]></finnish><french><![CDATA[Bonjour]]></french><italian><![CDATA[Ciao]]></italian><japanese><![CDATA[こんにちは]]></japanese><korean><![CDATA[안녕하세요]]></korean><dutch><![CDATA[Hallo]]></dutch><norwegian><![CDATA[]]></norwegian><polish><![CDATA[Cześć]]></polish><brazilian><![CDATA[Olá]]></brazilian><portuguese><![CDATA[Olá]]></portuguese><russian><![CDATA[Привет]]></russian><swedish><![CDATA[Hallå]]></swedish><turkish><![CDATA[Merhaba]]></turkish><chinese><![CDATA[]]></chinese><mandarintaiwan><![CDATA[]]></mandarintaiwan><language>3</language></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Data is sent on the output when this input is stimulated." id="2" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Data sent when asked." id="3" /></Box><Box name="Wait" id="6" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="625" y="66"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+		self.onStopped(self.sentences[sDefaultLang])]]></content></script><pluginContent><arabic><![CDATA[]]></arabic><czech><![CDATA[Ahoj]]></czech><danish><![CDATA[Hej]]></danish><german><![CDATA[]]></german><greek><![CDATA[]]></greek><english><![CDATA[Hello]]></english><spanish><![CDATA[Hola]]></spanish><finnish><![CDATA[Hei]]></finnish><french><![CDATA[Bonjour]]></french><italian><![CDATA[Ciao]]></italian><japanese><![CDATA[中指 ]]></japanese><korean><![CDATA[안녕하세요]]></korean><dutch><![CDATA[Hallo]]></dutch><norwegian><![CDATA[]]></norwegian><polish><![CDATA[Cześć]]></polish><brazilian><![CDATA[Olá]]></brazilian><portuguese><![CDATA[Olá]]></portuguese><russian><![CDATA[Привет]]></russian><swedish><![CDATA[Hallå]]></swedish><turkish><![CDATA[Merhaba]]></turkish><chinese><![CDATA[]]></chinese><mandarintaiwan><![CDATA[]]></mandarintaiwan><language>10</language></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Data is sent on the output when this input is stimulated." id="2" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Data sent when asked." id="3" /></Box><Box name="Wait" id="6" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="625" y="66"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self, False)
 
@@ -3645,14 +3645,14 @@ class MyClass(GeneratedClass):
 			"Arabic" : "  ",
 			"Czech" : " Ahoj ",
 			"Danish" : " Hej ",
-			"German" : " 練習を繰り返します。  ",
+			"German" : "  ",
 			"Greek" : "  ",
 			"English" : " Hello ",
 			"Spanish" : " Hola ",
 			"Finnish" : " Hei ",
 			"French" : " Bonjour ",
 			"Italian" : " Ciao ",
-			"Japanese" : " こんにちは ",
+			"Japanese" : " 練習を繰り返します。  ",
 			"Korean" : " 안녕하세요 ",
 			"Dutch" : " Hallo ",
 			"Norwegian" : "  ",
@@ -3668,7 +3668,7 @@ class MyClass(GeneratedClass):
 
 	def onInput_onStart(self):
 		sDefaultLang = self.tts.getLanguage()
-		self.onStopped(self.sentences[sDefaultLang])]]></content></script><pluginContent><arabic><![CDATA[]]></arabic><czech><![CDATA[Ahoj]]></czech><danish><![CDATA[Hej]]></danish><german><![CDATA[練習を繰り返します。 ]]></german><greek><![CDATA[]]></greek><english><![CDATA[Hello]]></english><spanish><![CDATA[Hola]]></spanish><finnish><![CDATA[Hei]]></finnish><french><![CDATA[Bonjour]]></french><italian><![CDATA[Ciao]]></italian><japanese><![CDATA[こんにちは]]></japanese><korean><![CDATA[안녕하세요]]></korean><dutch><![CDATA[Hallo]]></dutch><norwegian><![CDATA[]]></norwegian><polish><![CDATA[Cześć]]></polish><brazilian><![CDATA[Olá]]></brazilian><portuguese><![CDATA[Olá]]></portuguese><russian><![CDATA[Привет]]></russian><swedish><![CDATA[Hallå]]></swedish><turkish><![CDATA[Merhaba]]></turkish><chinese><![CDATA[]]></chinese><mandarintaiwan><![CDATA[]]></mandarintaiwan><language>3</language></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Data is sent on the output when this input is stimulated." id="2" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Data sent when asked." id="3" /></Box><Box name="Wait" id="6" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="625" y="60"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+		self.onStopped(self.sentences[sDefaultLang])]]></content></script><pluginContent><arabic><![CDATA[]]></arabic><czech><![CDATA[Ahoj]]></czech><danish><![CDATA[Hej]]></danish><german><![CDATA[]]></german><greek><![CDATA[]]></greek><english><![CDATA[Hello]]></english><spanish><![CDATA[Hola]]></spanish><finnish><![CDATA[Hei]]></finnish><french><![CDATA[Bonjour]]></french><italian><![CDATA[Ciao]]></italian><japanese><![CDATA[練習を繰り返します。 ]]></japanese><korean><![CDATA[안녕하세요]]></korean><dutch><![CDATA[Hallo]]></dutch><norwegian><![CDATA[]]></norwegian><polish><![CDATA[Cześć]]></polish><brazilian><![CDATA[Olá]]></brazilian><portuguese><![CDATA[Olá]]></portuguese><russian><![CDATA[Привет]]></russian><swedish><![CDATA[Hallå]]></swedish><turkish><![CDATA[Merhaba]]></turkish><chinese><![CDATA[]]></chinese><mandarintaiwan><![CDATA[]]></mandarintaiwan><language>10</language></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Data is sent on the output when this input is stimulated." id="2" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Data sent when asked." id="3" /></Box><Box name="Wait" id="6" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="625" y="60"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self, False)
 
@@ -5586,7 +5586,7 @@ class MyClass(GeneratedClass):
 			"Finnish" : " Hei ",
 			"French" : " Bonjour ",
 			"Italian" : " Ciao ",
-			"Japanese" : " こんにちは ",
+			"Japanese" : " 練習を繰り返します。  ",
 			"Korean" : " 안녕하세요 ",
 			"Dutch" : " Hallo ",
 			"Norwegian" : "  ",
@@ -5602,7 +5602,7 @@ class MyClass(GeneratedClass):
 
 	def onInput_onStart(self):
 		sDefaultLang = self.tts.getLanguage()
-		self.onStopped(self.sentences[sDefaultLang])]]></content></script><pluginContent><arabic><![CDATA[]]></arabic><czech><![CDATA[Ahoj]]></czech><danish><![CDATA[Hej]]></danish><german><![CDATA[und das ganze nochmal]]></german><greek><![CDATA[]]></greek><english><![CDATA[Hello]]></english><spanish><![CDATA[Hola]]></spanish><finnish><![CDATA[Hei]]></finnish><french><![CDATA[Bonjour]]></french><italian><![CDATA[Ciao]]></italian><japanese><![CDATA[こんにちは]]></japanese><korean><![CDATA[안녕하세요]]></korean><dutch><![CDATA[Hallo]]></dutch><norwegian><![CDATA[]]></norwegian><polish><![CDATA[Cześć]]></polish><brazilian><![CDATA[Olá]]></brazilian><portuguese><![CDATA[Olá]]></portuguese><russian><![CDATA[Привет]]></russian><swedish><![CDATA[Hallå]]></swedish><turkish><![CDATA[Merhaba]]></turkish><chinese><![CDATA[]]></chinese><mandarintaiwan><![CDATA[]]></mandarintaiwan><language>3</language></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Data is sent on the output when this input is stimulated." id="2" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Data sent when asked." id="3" /></Box><Box name="Wait" id="6" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="625" y="60"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+		self.onStopped(self.sentences[sDefaultLang])]]></content></script><pluginContent><arabic><![CDATA[]]></arabic><czech><![CDATA[Ahoj]]></czech><danish><![CDATA[Hej]]></danish><german><![CDATA[und das ganze nochmal]]></german><greek><![CDATA[]]></greek><english><![CDATA[Hello]]></english><spanish><![CDATA[Hola]]></spanish><finnish><![CDATA[Hei]]></finnish><french><![CDATA[Bonjour]]></french><italian><![CDATA[Ciao]]></italian><japanese><![CDATA[練習を繰り返します。 ]]></japanese><korean><![CDATA[안녕하세요]]></korean><dutch><![CDATA[Hallo]]></dutch><norwegian><![CDATA[]]></norwegian><polish><![CDATA[Cześć]]></polish><brazilian><![CDATA[Olá]]></brazilian><portuguese><![CDATA[Olá]]></portuguese><russian><![CDATA[Привет]]></russian><swedish><![CDATA[Hallå]]></swedish><turkish><![CDATA[Merhaba]]></turkish><chinese><![CDATA[]]></chinese><mandarintaiwan><![CDATA[]]></mandarintaiwan><language>10</language></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Data is sent on the output when this input is stimulated." id="2" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Data sent when asked." id="3" /></Box><Box name="Wait" id="6" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="625" y="60"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self, False)
 
@@ -6275,7 +6275,7 @@ class MyClass(GeneratedClass):
 			"Finnish" : " Hei ",
 			"French" : " Bonjour ",
 			"Italian" : " Ciao ",
-			"Japanese" : " こんにちは ",
+			"Japanese" : " 練習を繰り返します。  ",
 			"Korean" : " 안녕하세요 ",
 			"Dutch" : " Hallo ",
 			"Norwegian" : "  ",
@@ -6291,7 +6291,7 @@ class MyClass(GeneratedClass):
 
 	def onInput_onStart(self):
 		sDefaultLang = self.tts.getLanguage()
-		self.onStopped(self.sentences[sDefaultLang])]]></content></script><pluginContent><arabic><![CDATA[]]></arabic><czech><![CDATA[Ahoj]]></czech><danish><![CDATA[Hej]]></danish><german><![CDATA[und das ganze nochmal]]></german><greek><![CDATA[]]></greek><english><![CDATA[Hello]]></english><spanish><![CDATA[Hola]]></spanish><finnish><![CDATA[Hei]]></finnish><french><![CDATA[Bonjour]]></french><italian><![CDATA[Ciao]]></italian><japanese><![CDATA[こんにちは]]></japanese><korean><![CDATA[안녕하세요]]></korean><dutch><![CDATA[Hallo]]></dutch><norwegian><![CDATA[]]></norwegian><polish><![CDATA[Cześć]]></polish><brazilian><![CDATA[Olá]]></brazilian><portuguese><![CDATA[Olá]]></portuguese><russian><![CDATA[Привет]]></russian><swedish><![CDATA[Hallå]]></swedish><turkish><![CDATA[Merhaba]]></turkish><chinese><![CDATA[]]></chinese><mandarintaiwan><![CDATA[]]></mandarintaiwan><language>3</language></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Data is sent on the output when this input is stimulated." id="2" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Data sent when asked." id="3" /></Box><Box name="Wait" id="6" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="625" y="60"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+		self.onStopped(self.sentences[sDefaultLang])]]></content></script><pluginContent><arabic><![CDATA[]]></arabic><czech><![CDATA[Ahoj]]></czech><danish><![CDATA[Hej]]></danish><german><![CDATA[und das ganze nochmal]]></german><greek><![CDATA[]]></greek><english><![CDATA[Hello]]></english><spanish><![CDATA[Hola]]></spanish><finnish><![CDATA[Hei]]></finnish><french><![CDATA[Bonjour]]></french><italian><![CDATA[Ciao]]></italian><japanese><![CDATA[練習を繰り返します。 ]]></japanese><korean><![CDATA[안녕하세요]]></korean><dutch><![CDATA[Hallo]]></dutch><norwegian><![CDATA[]]></norwegian><polish><![CDATA[Cześć]]></polish><brazilian><![CDATA[Olá]]></brazilian><portuguese><![CDATA[Olá]]></portuguese><russian><![CDATA[Привет]]></russian><swedish><![CDATA[Hallå]]></swedish><turkish><![CDATA[Merhaba]]></turkish><chinese><![CDATA[]]></chinese><mandarintaiwan><![CDATA[]]></mandarintaiwan><language>10</language></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Data is sent on the output when this input is stimulated." id="2" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Data sent when asked." id="3" /></Box><Box name="Wait" id="6" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="625" y="60"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self, False)
 

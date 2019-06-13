@@ -85,6 +85,7 @@
         <File name="getGermanTranslations" src="behavior_1/getGermanTranslations.bash" />
         <File name="translate_Bingo" src="behavior_1/translate_Bingo.csv" />
         <File name="style" src="html/style.css" />
+        <File name="Bingozettel" src="Bingozettel.docx" />
     </Resources>
     <Topics />
     <IgnoredPaths />
