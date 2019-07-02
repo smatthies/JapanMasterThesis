@@ -6,7 +6,9 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="konichiwa" src="konichiwa.wav" />
+        <File name="sunayama" src="sunayama.wav" />
+        <File name="tokyo ondo" src="tokyo ondo.wav" />
+        <File name="konitchiwa" src="konitchiwa.wav" />
     </Resources>
     <Topics />
     <IgnoredPaths />
