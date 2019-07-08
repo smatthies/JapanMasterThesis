@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fillViewport="false"
+    android:scrollbarStyle="outsideOverlay"
+    tools:context="com.aldebaran.libqijavasample.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px">
+
+
+        <Button
+            android:id="@+id/connect"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="72dp"
+            android:elevation="0dp"
+            android:onClick="onClickConnect"
+            android:text="@string/connect"
+            />
+
+        <EditText
+            android:id="@+id/robot_ip"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:hint="@string/robot_ip"
+            android:inputType="textUri"
+            android:text="192.168.0.1" />
+
+        <Button
+            android:id="@+id/hello"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/connect"
+            android:layout_alignTop="@+id/warmUp"
+            android:elevation="0dp"
+            android:enabled="false"
+            android:onClick="startHello"
+            android:text="Hello" />
+
+        <Button
+            android:id="@+id/instrument"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/connect"
+            android:layout_below="@+id/hello"
+            android:elevation="0dp"
+            android:enabled="false"
+            android:onClick="startInstrumentQuiz"
+            android:text="Instrument" />
+
+        <Button
+            android:id="@+id/musik"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/connect"
+            android:layout_below="@+id/instrument"
+            android:elevation="0dp"
+            android:enabled="false"
+            android:onClick="startMusicQuiz"
+            android:text="MusikQuiz" />
+
+        <Button
+            android:id="@+id/konitchiwaSong"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/connect"
+            android:layout_below="@+id/musik"
+            android:elevation="0dp"
+            android:enabled="false"
+            android:onClick="startKonitchiwa"
+            android:text="KonitchiwaSong" />
+
+        <Button
+            android:id="@+id/warmUp"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="150dp"
+            android:elevation="0dp"
+            android:enabled="false"
+            android:onClick="startWarmUp"
+            android:text="Warm-Up" />
+
+        <Button
+            android:id="@+id/stretch"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/instrument"
+            android:layout_centerHorizontal="true"
+            android:elevation="0dp"
+            android:enabled="false"
+            android:onClick="startStretching"
+            android:text="Stretching" />
+
+        <Button
+            android:id="@+id/strength"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/instrument"
+            android:layout_centerHorizontal="true"
+            android:elevation="0dp"
+            android:enabled="false"
+            android:onClick="startStrength"
+            android:text="Strength" />
+
+        <Button
+            android:id="@+id/coolDown"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/musik"
+            android:layout_centerHorizontal="true"
+            android:elevation="0dp"
+            android:enabled="false"
+            android:onClick="startCoolDown"
+            android:text="Rajio Taiso" />
+
+        <Button
+            android:id="@+id/pmr"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:elevation="0dp"
+            android:enabled="false"
+            android:onClick="startPMR"
+            android:text="PMR" />
+
+
+        <Button
+            android:id="@+id/bingo"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/instrument"
+            android:layout_alignEnd="@+id/robot_ip"
+            android:elevation="0dp"
+            android:enabled="false"
+            android:onClick="startBingo"
+            android:text="Bingo" />
+
+        <Button
+            android:id="@+id/memory"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/robot_ip"
+            android:layout_alignTop="@+id/instrument"
+            android:elevation="0dp"
+            android:enabled="false"
+            android:onClick="startMemory"
+            android:text="Memory" />
+
+        <Button
+            android:id="@+id/bunny"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/robot_ip"
+            android:layout_below="@+id/instrument"
+            android:elevation="0dp"
+            android:enabled="false"
+            android:onClick="startBunny"
+            android:text="Bunny Game" />
+
+        <Button
+            android:id="@+id/stopp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="700dp"
+            android:onClick="stoppBehavior"
+            android:text="Stopp"
+            android:enabled="false"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>

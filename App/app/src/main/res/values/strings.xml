@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Intervention</string>
+    <string name="session_connected">Session State: connected</string>
+    <string name="session_not_connected">Session State: not connected</string>
+    <string name="very_long_phrase">Hello this is a very very very long sentence that should be cancelled before arriving here. But I will continue talking and talking and talking until I die. Bye bye my friends. See you in hell.</string>
+    <string name="robot_connected">Robot State: connected.</string>
+    <string name="robot_not_connected">Robot State: not connected.</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="robot_ip">192.168.0.1</string>
+    <string name="port">Port</string>
+    <string name="endpoint_none">Endpoint: None</string>
+    <string name="session_none">Session: None</string>
+    <string name="robot_state_none">Robot State: None</string>
+    <string name="button_say">Say</string>
+    <string name="button_cancel_say">Cancel Say</string>
+</resources>
