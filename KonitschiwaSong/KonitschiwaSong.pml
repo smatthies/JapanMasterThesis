@@ -7,8 +7,8 @@
     <Dialogs />
     <Resources>
         <File name="sunayama" src="sunayama.wav" />
-        <File name="tokyo ondo" src="tokyo ondo.wav" />
         <File name="konitchiwa" src="konitchiwa.wav" />
+        <File name="furusato" src="furusato.wav" />
     </Resources>
     <Topics />
     <IgnoredPaths />
