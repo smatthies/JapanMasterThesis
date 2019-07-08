@@ -86,7 +86,6 @@
         <File name="translate_Bingo" src="behavior_1/translate_Bingo.csv" />
         <File name="style" src="html/style.css" />
         <File name="Bingozettel" src="Bingozettel.docx" />
-        <File name="~$ngozettel" src="~$ngozettel.docx" />
     </Resources>
     <Topics />
     <IgnoredPaths />

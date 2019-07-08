@@ -45,6 +45,8 @@ public class MainActivity extends Activity {
     Button memoryGame;
     Button bunny;
 
+    Button ending;
+
     Button stopp;
 
 
@@ -73,6 +75,8 @@ public class MainActivity extends Activity {
         bingo= (Button) findViewById(R.id.bingo);
         memoryGame= (Button) findViewById(R.id.memory);
         bunny  = (Button) findViewById(R.id.bunny);
+
+        ending = (Button) findViewById(R.id.ending);
 
         stopp= (Button) findViewById(R.id.stopp);
 
@@ -120,6 +124,7 @@ public class MainActivity extends Activity {
                     memoryGame.setEnabled(true);
                     bunny.setEnabled(true);
 
+                    ending.setEnabled(true);
 
                     stopp.setEnabled(true);
 
@@ -248,6 +253,16 @@ public class MainActivity extends Activity {
 
         try {
             autoLife.call(void.class, "switchFocus", "hasenfangen/behavior_1").get();
+        }
+        catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void startEnding(View view){
+
+        try {
+            autoLife.call(void.class, "switchFocus", "ending-972e5b/behavior_1").get();
         }
         catch (ExecutionException e) {
             e.printStackTrace();
