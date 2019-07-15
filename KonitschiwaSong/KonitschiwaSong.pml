@@ -6,11 +6,8 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="sunayama" src="sunayama.wav" />
-        <File name="konitchiwa" src="konitchiwa.wav" />
-        <File name="furusato" src="furusato.wav" />
-        <File name="tokyo ondo" src="tokyo ondo.wav" />
         <File name="Shojoji" src="Shojoji.wav" />
+        <File name="kikuchi keiko" src="kikuchi keiko.wav" />
     </Resources>
     <Topics />
     <IgnoredPaths />
