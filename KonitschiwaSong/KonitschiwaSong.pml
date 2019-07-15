@@ -10,6 +10,7 @@
         <File name="konitchiwa" src="konitchiwa.wav" />
         <File name="furusato" src="furusato.wav" />
         <File name="tokyo ondo" src="tokyo ondo.wav" />
+        <File name="Shojoji" src="Shojoji.wav" />
     </Resources>
     <Topics />
     <IgnoredPaths />
