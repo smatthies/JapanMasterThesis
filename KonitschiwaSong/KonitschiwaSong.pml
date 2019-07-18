@@ -6,9 +6,9 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="sunayama" src="sunayama.wav" />
+        <File name="Shojoji" src="Shojoji.wav" />
+        <File name="kikuchi keiko" src="kikuchi keiko.wav" />
         <File name="konitchiwa" src="konitchiwa.wav" />
-        <File name="furusato" src="furusato.wav" />
     </Resources>
     <Topics />
     <IgnoredPaths />

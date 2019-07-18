@@ -7,6 +7,7 @@
     <Dialogs />
     <Resources>
         <File name="sayonara closing song" src="sayonara closing song.wav" />
+        <File name="sunayama" src="sunayama.wav" />
     </Resources>
     <Topics />
     <IgnoredPaths />
