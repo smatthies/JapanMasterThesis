@@ -8,6 +8,7 @@
     <Resources>
         <File name="Shojoji" src="Shojoji.wav" />
         <File name="kikuchi keiko" src="kikuchi keiko.wav" />
+        <File name="konitchiwa" src="konitchiwa.wav" />
     </Resources>
     <Topics />
     <IgnoredPaths />
