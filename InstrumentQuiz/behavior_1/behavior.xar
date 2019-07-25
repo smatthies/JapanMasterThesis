@@ -90,7 +90,7 @@ class MyClass(GeneratedClass):
 			"Finnish" : " Hei ",
 			"French" : " Bonjour ",
 			"Italian" : " Ciao ",
-			"Japanese" : " ゲームをしてみましょう。この楽器の名前は分かりますか。 \n時々人の話が聞き取れませんので、もう少し大きな声で話してください。 ",
+			"Japanese" : " ゲームをしてみましょう。この楽器の名前は分かりますか。 \r\n時々人の話が聞き取れませんので、もう少し大きな声で話してください。 ",
 			"Korean" : " 안녕하세요 ",
 			"Dutch" : " Hallo ",
 			"Norwegian" : "  ",
@@ -132,7 +132,7 @@ class MyClass(GeneratedClass):
         #self.win() #activate the output of the box
         global songs
         self.tablet.hideImage()
-        songs =  [["saxophone.ogg", "サクソフォン", "sax.png"],["koto.mp3", "箏", "koto.jpg"], ["shamisen.mp3","三味線","shamisen.jpg"],["shakuhachi.mp3","尺八","shakuhachi.jpg"],["klavier.ogg","ピアノ","klavier.jpg"],["dudelsack.ogg","バグパイプ","dudelsack.jpg"]]
+        songs =  [["akkordeon.ogg", "アコーディオン", "akkordeon.jpg"],["biwa.wav", "琵琶", "biwa.jpg"], ["gitarre.ogg","ギター","gitarre.jpg"],["hichiriki.wav","篳篥","hichiriki.jpg"],["kokyu.wav","胡弓","kokyu.jpg"],["mundharmonika.ogg","ハーモニカ","mundharmonika.jpg"],["ryuteki.wav","龍笛","ryuteki.jpg"],["taiko.wav","太鼓","taiko.jpg"]]
         global songChoice
         if songChoice <= (len(songs) - 1):
             song = songs[songChoice]
@@ -1373,7 +1373,7 @@ class MyClass(GeneratedClass):
 			"Finnish" : " Hei ",
 			"French" : " Bonjour ",
 			"Italian" : " Ciao ",
-			"Japanese" : " とても良かったですね。 正解です。 \nそしてこれ？ ",
+			"Japanese" : " とても良かったですね。 正解です。 \r\nそしてこれ？ ",
 			"Korean" : " 안녕하세요 ",
 			"Dutch" : " Hallo ",
 			"Norwegian" : "  ",
