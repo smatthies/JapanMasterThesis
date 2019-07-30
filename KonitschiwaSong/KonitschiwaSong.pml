@@ -7,9 +7,7 @@
     <Dialogs />
     <Resources>
         <File name="konitchiwa" src="konitchiwa.wav" />
-        <File name="umi" src="umi.wav" />
         <File name="Kawa no nagare no you ni" src="Kawa no nagare no you ni.wav" />
-        <File name="ringoo" src="ringoo.wav" />
     </Resources>
     <Topics />
     <IgnoredPaths />
